@@ -81,7 +81,7 @@ backtop:
   about: false
 
 donation:
-  show: false
+  show: true
   btn_text: 联系或捐赠
   tip: 联系我或者捐赠我
   items:
@@ -142,12 +142,12 @@ changyan:
 
 # gitalk评论组件，把下面的配置换成你的，官方文档: https://gitalk.github.io/
 gitalk:
-  enable: false # 如果使用 gitalk，请设置改之为true
-  clientID: 277317290454635afa73
-  clientSecret: 78223c859304da5e8d71bfce136d436c6ff95c37
+  enable: true # 如果使用 gitalk，请设置改之为true
+  clientID: 8b92ed49e30b531842cb
+  clientSecret: 21ef7c30a5085c11fe18f78e8b5c13de4ec43e4b
   repo: blog-comment
-  owner: forsigner
-  admin: forsigner
+  owner: Vnnyu
+  admin: Vnnyu
 
 
 # gitment comment service

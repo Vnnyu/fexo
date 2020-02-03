@@ -1,0 +1,73 @@
+html,.page-header{
+    background: #F9F9F9;
+}
+html.page-home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/bg001.jpg');
+    background-color: transparent;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.article-content p{
+    color: #101D37;
+}
+
+/* .article-content h1,
+.article-content h2,
+.article-content h3{
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: #3072f6 solid 2px;
+    position: relative;
+    margin-left: 40px;
+} */
+
+/* .article-content h1::before{
+    position: absolute;
+    content: '🌻';
+    left: -40px;
+}
+
+.article-content h2::before{
+    position: absolute;
+    content: '🍀';
+    left: -40px;
+}
+
+.article-content h3::before{
+    position: absolute;
+    content: '🌽';
+    left: -40px;
+} */
+
+.toc-article a:hover{
+    color: #3072f6;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+    html.page-home {
+        background-image: url('/images/m_bg.jpg');
+    }
+}
+
+.icon-wechat::after{
+    content: '';
+    width: 200px;
+    height: 200px;
+    background: url('/images/wechat.png') no-repeat;
+    margin-top: 20px;
+    display: inline-block;
+    background-size: cover;
+}
+
+html.dark .content-home .nav .item a:hover{
+    font-weight: bold;
+    color: #FFF;
+}

@@ -1,6 +1,6 @@
 # Blog info
 blog_name: Vnnyu
-slogan: 幸甚至哉，歌以咏志。
+slogan: 积跬步，行千里
 url: http://www.vnnyu.com
 
 # Set avatar (Absolute url and relative url)
@@ -192,13 +192,16 @@ about:
   - type: me
     icon: icon-user
     text_value:
-    - "李东浩，1994."
-    - "前端工程师"
+    - "李东浩 | 1994 | 前端工程师"
   - type: education
     icon: icon-text
     text_value: 
-    - "北京交通大学，硕士，2018"
-    - "贝壳找房，2017.8至今（实习&正式）"
+    - "拼多多 | 2019.7 - 至今"
+    - "贝壳找房 |  2017.8 - 2019.6（实习 & 校招）"
+  - type: me
+    icon: icon-box
+    text_value:
+    - "硕士 | 2018 | 北京交通大学"
   - type: Github
     icon: icon-github
     text_key: Github
@@ -210,7 +213,7 @@ about:
     text_value: "ldh71777@gmail.com"
   - type: location
     icon: icon-location
-    text_value: 北京
+    text_value: 上海
   - type: wechat
     icon: icon-wechat
     text_value: "ldh_cain"

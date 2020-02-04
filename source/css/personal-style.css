@@ -5,11 +5,13 @@ html.page-home {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('/images/bg001.jpg');
+    /* background-image: url('/images/bg001.jpg');
     background-color: transparent;
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background: linear-gradient( #00ae66, transparent), linear-gradient( 90deg, #3072f6, transparent), linear-gradient( -90deg, #FF6A6A, transparent);
+    background-blend-mode: screen;
 }
 
 .article-content p{
@@ -49,17 +51,11 @@ html.page-home {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 800px) {
-    html.page-home {
-        background-image: url('/images/m_bg.jpg');
-    }
-}
-
 .icon-wechat::after{
     content: '';
-    width: 200px;
-    height: 200px;
-    background: url('/images/wechat.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    background: url('/images/wechat.jpg') no-repeat;
     margin-top: 20px;
     display: inline-block;
     background-size: cover;
@@ -68,4 +64,26 @@ html.page-home {
 html.dark .content-home .nav .item a:hover{
     font-weight: bold;
     color: #FFF;
+}
+
+.content-home .nav{
+    color: #222;
+}
+
+.content-home .nav .item a:hover{
+    color: #eee;
+}
+
+@media only screen and (max-width: 800px) {
+    html.page-home {
+        background-image: url('http://pinduoduoimg.yangkeduo.com/wxappimg/live/2020-02-04/05da220d-f02c-4e31-944a-4139e6aa356b.jpg');
+        background-color: transparent;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .content-home .nav, .content-home .nav .item a, .content-home .name, .content-home .slogan{
+        color: #fff;
+    }
 }
